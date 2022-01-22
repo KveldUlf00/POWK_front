@@ -1,0 +1,16 @@
+.sliderPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(95% - 2rem);
+  height: calc(15% - 2rem);
+  padding: 1rem 1rem;
+  background-color: #444;
+  margin-top: 2rem;
+
+  .sliderBox {
+    width: calc(100% - 2rem);
+    padding: 0.5rem 1rem;
+  }
+}

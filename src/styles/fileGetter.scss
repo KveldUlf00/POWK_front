@@ -1,0 +1,14 @@
+.panel {
+  width: calc(95% - 3rem);
+  height: calc(20% - 1rem);
+  background-color: #444;
+  padding: 0.5rem 1.5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .center {
+    text-align: center;
+  }
+}

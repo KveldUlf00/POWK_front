@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  padding: 10px;
+
+  &__left,
+  &__right {
+    width: calc(100% - 20px);
+    height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__right {
+    justify-content: flex-start;
+  }
+}

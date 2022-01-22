@@ -1,0 +1,24 @@
+.settingsPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(95% - 2rem);
+  height: calc(70% - 2rem);
+  padding: 1rem 1rem;
+  background-color: #444;
+
+  .setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    width: calc(100% - 2rem);
+    min-height: calc(24% - 1rem);
+    padding: 0.5rem 1rem;
+    border-radius: 2%;
+
+    div > fieldset {
+      border-color: #fff !important;
+    }
+  }
+}
