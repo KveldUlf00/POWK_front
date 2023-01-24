@@ -1,3 +1,6 @@
+# Commit names are just beautiful, it's all because deadline and making final version in two hours
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
